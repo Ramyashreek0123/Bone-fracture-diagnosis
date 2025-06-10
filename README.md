@@ -13,7 +13,7 @@ This project demonstrates a **binary classification** model to detect **bone fra
 
 ## 🗂 Dataset Used
 
-- **Source**: [Kaggle - Bone Fracture X-ray Dataset](https://www.kaggle.com)  
+- **Source**: Kaggle [Bone Fracture X-ray Dataset] 
 - **Type**: X-ray images of bones  
 - **Classes**:
   - `Fractured`  
@@ -58,12 +58,10 @@ datasets/
 ## 🖼️ Single Image Prediction
 
 The notebook includes a function to perform **real-time prediction** for a new X-ray image:
-
-```python
 predict_single_image("path_to_image.jpg")
 
-⚙️ Setup
-Install the required packages using:
+## ⚙️ Setup
 
+Install the required packages using:
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow pillow
 
