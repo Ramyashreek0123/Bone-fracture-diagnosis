@@ -59,11 +59,13 @@ datasets/
 
 The notebook includes a function to perform **real-time prediction** for a new X-ray image:
 
+```python
 predict_single_image("path_to_image.jpg")
 
 ## ⚙️ Setup
 
 Install the required packages using:
 
+```python
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow pillow
 
